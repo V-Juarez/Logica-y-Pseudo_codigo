@@ -1,12 +1,14 @@
 Algoritmo raizCuadrada
-	Definir num, result, result2, result3, result4 Como Entero
+	Definir num, result,  result4 Como Entero
+	Definir resul2 Como Entero
+	Definir resul3 Como Entero
 	
 	Escribir "Escribe un Numero: "
 	Leer num
 	
 	result <- RAIZ(num)
-	result2 <- num ^ (1/3)
-	result3 <- result / num 
+	resul2 <- num ^ (1/3)
+	resul3 <- result / num 
 	
 	
 	Escribir "La raiz Cuadrada es: ", result

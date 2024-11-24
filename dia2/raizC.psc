@@ -1,6 +1,6 @@
 Algoritmo raizC
 	// variables
-	Definir a,b,c,d Como Entero
+	Definir a, b, c, d Como Entero
 	// Mensage
 	Escribir 'Programa que imprime la raiz cuadrada o cubica'
 	// Multiples opciones
@@ -16,9 +16,9 @@ Algoritmo raizC
 	Segun a  Hacer
 		1:
 			c <- RAIZ(b)
-			Escribir 'La raiz Cuadrada es: ',c
+			Escribir 'La raiz Cuadrada es: ', c
 		2:
 			d <- b^(1/3)
-			Escribir 'La raiz Cubica es: ',d
+			Escribir 'La raiz Cubica es: ', d
 	FinSegun
 FinAlgoritmo

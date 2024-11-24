@@ -1,0 +1,7 @@
+Algoritmo Terreno_Cuadrado
+	Definir l, a, pm2, p Como Real
+	Escribir "Ingrese el largo, ancho y precio/m2: "
+	Leer l, a, pm2
+	p <- l * a * pm2
+	Escribir "El Terreno cuesta: ", p
+FinAlgoritmo
