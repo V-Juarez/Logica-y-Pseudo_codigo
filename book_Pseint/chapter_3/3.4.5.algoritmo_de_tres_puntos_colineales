@@ -1,0 +1,24 @@
+Algoritmo algoritmo_tres_puntos_colineales
+	// Realiza un algoritmo para determinar si tres puntos P(x,y) ingresados por teclado son colineales.
+	// Entrada P1, P2, P3 : 
+	// Salida Si / No: 
+	// Proceso Determinar la colinealidad usando pendientes m = y2 - y1 / x2 - x1
+	Definir x1, y1, x2, y2, x3, y3 Como Entero
+	Definir m12, m23 Como Real
+	
+	Escribir 'Ingrese el Punto P1(x1, y1): '
+	Leer x1, y1
+	Escribir 'Ingrese el Punto P2(x2, y2): '
+	Leer x2, y2
+	Escribir 'Ingrese el Punto P3(x3, y3): '
+	Leer x3, y3
+	
+	m12 <- (y2 - y1) / (x2 - x1)
+	m23 <- (y3 - y2) / (x3 - x2)
+	Si m12=m23 Entonces
+		Escribir 'Si colineales'
+	SiNo
+		Escribir 'No colineales'
+	Fin Si
+	
+FinAlgoritmo
