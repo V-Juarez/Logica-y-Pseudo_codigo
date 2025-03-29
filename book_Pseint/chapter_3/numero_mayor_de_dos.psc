@@ -3,6 +3,7 @@ Algoritmo numero_mayor
 	Escribir "Ingrese 2 numeros: "
 	Leer n1, n2
 	Escribir "El mayor es: "
+	
 	Si n1 > n2 Entonces
 		Escribir n1
 	SiNo
