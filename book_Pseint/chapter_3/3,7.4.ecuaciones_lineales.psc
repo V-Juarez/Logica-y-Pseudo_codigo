@@ -17,5 +17,6 @@ Algoritmo ecuaciones_lineales
 		yy <- (a*f-c*d)/div
 		Escribir 'x = ', x
 		Escribir 'y = ', yy
+		
 	Fin Si
 FinAlgoritmo
