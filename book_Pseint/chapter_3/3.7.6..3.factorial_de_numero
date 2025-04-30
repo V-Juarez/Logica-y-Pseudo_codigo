@@ -1,0 +1,14 @@
+Algoritmo factorial_de_numero_entero
+	Definir n, fac, i Como Entero
+	
+	Escribir "Ingresa un numero: "
+	Leer n
+	
+	fac <- 1
+	
+	Para i <- 1 Hasta n Con Paso 1 Hacer
+		fac <- fac * i
+	Fin Para
+	
+	Escribir "El factorial es: ", fac
+FinAlgoritmo

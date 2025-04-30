@@ -1,0 +1,15 @@
+Algoritmo progresion_geometrica
+	Definir x, n, S, i Como Entero
+	
+	Escribir "Ingrese los datos para x, n: "
+	Leer x, n
+	
+	S <- 0
+	
+	Para i<-0 Hasta n Con Paso 1 Hacer
+		S <- S + x^i
+	Fin Para
+	
+	Escribir "La progresion geometica es: ", S
+	
+FinAlgoritmo

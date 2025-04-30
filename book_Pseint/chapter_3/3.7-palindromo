@@ -1,0 +1,24 @@
+// Determir si una palabra es palindromo, que se lee igual
+// de izquierda a derecha y viceversa.
+// Ejemplo: radar, oso, reconocer, somos, sometemos.
+// Se invierte la palabra y se compara con la original
+Algoritmo palindromo
+	Definir s, s1 Como Caracter
+	Definir i Como Entero
+	
+	Escribir "Ingrese una palabra: "
+	Leer s
+	
+	s1 <- ""
+	
+	Para i <- Longitud(s) - 1 Hasta 0 Con Paso -1 Hacer
+		s1 <- Concatenar(s1, Subcadena(s, i,i))
+	Fin Para
+	
+	Si s=s1 Entonces
+		Escribir "Es un palindromo.: ->", " ", s
+	SiNo
+		Escribir "No es un palindromo.: ->", " ", s
+	Fin Si
+	
+FinAlgoritmo
