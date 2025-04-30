@@ -1,0 +1,19 @@
+Algoritmo factorial_repetir
+	// Repetir
+	// Mientras
+	// Repetir-Hasta Que 
+	// Para 
+	Definir n, fac Como Entero
+	Escribir "Ingresar un numero: "
+	
+	Leer n
+	fac <- 1
+	
+	Mientras n > 1 Hacer
+		fac <- fac * n
+		n <- n - 1
+	FinMientras
+	
+	Escribir  "El factorial es: ", fac
+	
+FinAlgoritmo
