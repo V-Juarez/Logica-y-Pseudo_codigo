@@ -14,4 +14,13 @@ Proceso tabla
 	FinMientras
 	Escribir "============================";
 	
+	Escribir  "========= Otra forma de plantear lsl solucion  ========";
+	Escribir "Tabla del Numero ", N;
+	
+	Para Operando <- 1 Hasta 10 Hacer
+		resultado <- N * Operando;
+		Escribir N, " x ", Operando, " = ", resultado;
+	FinPara
+	Escribir  "==========================";
+	
 FinProceso
